@@ -7,9 +7,9 @@
   },
   "plugins": [
     {
-      "name": "wp-performance-review",
-      "source": "./skills/wp-performance-review",
-      "description": "WordPress performance code review and optimization analysis. Detects anti-patterns in database queries, hooks, object caching, AJAX, and template loading."
+      "name": "claude-wordpress-skills",
+      "source": ".",
+      "description": "Professional WordPress engineering skills for Claude Code — performance optimization, security auditing, Gutenberg block development, and theme/plugin best practices"
     }
   ]
 }
