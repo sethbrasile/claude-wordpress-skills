@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "claude-wordpress-skills",
-      "source": ".",
+      "source": "./",
       "description": "Professional WordPress engineering skills for Claude Code — performance optimization, security auditing, Gutenberg block development, and theme/plugin best practices"
     }
   ]
