@@ -213,12 +213,157 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SEC-01 through SEC-29 | Phase 1 | Pending |
-| PLG-01 through PLG-29 | Phase 2 | Pending |
-| BLK-01 through BLK-30 | Phase 3 | Pending |
-| THM-01 through THM-29 | Phase 4 | Pending |
-| WOO-01 through WOO-30 | Phase 5 | Pending |
-| INF-01 through INF-04 | Phase 6 | Pending |
+| SEC-01 | Phase 1 | Pending |
+| SEC-02 | Phase 1 | Pending |
+| SEC-03 | Phase 1 | Pending |
+| SEC-04 | Phase 1 | Pending |
+| SEC-05 | Phase 1 | Pending |
+| SEC-06 | Phase 1 | Pending |
+| SEC-07 | Phase 1 | Pending |
+| SEC-08 | Phase 1 | Pending |
+| SEC-09 | Phase 1 | Pending |
+| SEC-10 | Phase 1 | Pending |
+| SEC-11 | Phase 1 | Pending |
+| SEC-12 | Phase 1 | Pending |
+| SEC-13 | Phase 1 | Pending |
+| SEC-14 | Phase 1 | Pending |
+| SEC-15 | Phase 1 | Pending |
+| SEC-16 | Phase 1 | Pending |
+| SEC-17 | Phase 1 | Pending |
+| SEC-18 | Phase 1 | Pending |
+| SEC-19 | Phase 1 | Pending |
+| SEC-20 | Phase 1 | Pending |
+| SEC-21 | Phase 1 | Pending |
+| SEC-22 | Phase 1 | Pending |
+| SEC-23 | Phase 1 | Pending |
+| SEC-24 | Phase 1 | Pending |
+| SEC-25 | Phase 1 | Pending |
+| SEC-26 | Phase 1 | Pending |
+| SEC-27 | Phase 1 | Pending |
+| SEC-28 | Phase 1 | Pending |
+| SEC-29 | Phase 1 | Pending |
+| PLG-01 | Phase 2 | Pending |
+| PLG-02 | Phase 2 | Pending |
+| PLG-03 | Phase 2 | Pending |
+| PLG-04 | Phase 2 | Pending |
+| PLG-05 | Phase 2 | Pending |
+| PLG-06 | Phase 2 | Pending |
+| PLG-07 | Phase 2 | Pending |
+| PLG-08 | Phase 2 | Pending |
+| PLG-09 | Phase 2 | Pending |
+| PLG-10 | Phase 2 | Pending |
+| PLG-11 | Phase 2 | Pending |
+| PLG-12 | Phase 2 | Pending |
+| PLG-13 | Phase 2 | Pending |
+| PLG-14 | Phase 2 | Pending |
+| PLG-15 | Phase 2 | Pending |
+| PLG-16 | Phase 2 | Pending |
+| PLG-17 | Phase 2 | Pending |
+| PLG-18 | Phase 2 | Pending |
+| PLG-19 | Phase 2 | Pending |
+| PLG-20 | Phase 2 | Pending |
+| PLG-21 | Phase 2 | Pending |
+| PLG-22 | Phase 2 | Pending |
+| PLG-23 | Phase 2 | Pending |
+| PLG-24 | Phase 2 | Pending |
+| PLG-25 | Phase 2 | Pending |
+| PLG-26 | Phase 2 | Pending |
+| PLG-27 | Phase 2 | Pending |
+| PLG-28 | Phase 2 | Pending |
+| PLG-29 | Phase 2 | Pending |
+| BLK-01 | Phase 3 | Pending |
+| BLK-02 | Phase 3 | Pending |
+| BLK-03 | Phase 3 | Pending |
+| BLK-04 | Phase 3 | Pending |
+| BLK-05 | Phase 3 | Pending |
+| BLK-06 | Phase 3 | Pending |
+| BLK-07 | Phase 3 | Pending |
+| BLK-08 | Phase 3 | Pending |
+| BLK-09 | Phase 3 | Pending |
+| BLK-10 | Phase 3 | Pending |
+| BLK-11 | Phase 3 | Pending |
+| BLK-12 | Phase 3 | Pending |
+| BLK-13 | Phase 3 | Pending |
+| BLK-14 | Phase 3 | Pending |
+| BLK-15 | Phase 3 | Pending |
+| BLK-16 | Phase 3 | Pending |
+| BLK-17 | Phase 3 | Pending |
+| BLK-18 | Phase 3 | Pending |
+| BLK-19 | Phase 3 | Pending |
+| BLK-20 | Phase 3 | Pending |
+| BLK-21 | Phase 3 | Pending |
+| BLK-22 | Phase 3 | Pending |
+| BLK-23 | Phase 3 | Pending |
+| BLK-24 | Phase 3 | Pending |
+| BLK-25 | Phase 3 | Pending |
+| BLK-26 | Phase 3 | Pending |
+| BLK-27 | Phase 3 | Pending |
+| BLK-28 | Phase 3 | Pending |
+| BLK-29 | Phase 3 | Pending |
+| BLK-30 | Phase 3 | Pending |
+| THM-01 | Phase 4 | Pending |
+| THM-02 | Phase 4 | Pending |
+| THM-03 | Phase 4 | Pending |
+| THM-04 | Phase 4 | Pending |
+| THM-05 | Phase 4 | Pending |
+| THM-06 | Phase 4 | Pending |
+| THM-07 | Phase 4 | Pending |
+| THM-08 | Phase 4 | Pending |
+| THM-09 | Phase 4 | Pending |
+| THM-10 | Phase 4 | Pending |
+| THM-11 | Phase 4 | Pending |
+| THM-12 | Phase 4 | Pending |
+| THM-13 | Phase 4 | Pending |
+| THM-14 | Phase 4 | Pending |
+| THM-15 | Phase 4 | Pending |
+| THM-16 | Phase 4 | Pending |
+| THM-17 | Phase 4 | Pending |
+| THM-18 | Phase 4 | Pending |
+| THM-19 | Phase 4 | Pending |
+| THM-20 | Phase 4 | Pending |
+| THM-21 | Phase 4 | Pending |
+| THM-22 | Phase 4 | Pending |
+| THM-23 | Phase 4 | Pending |
+| THM-24 | Phase 4 | Pending |
+| THM-25 | Phase 4 | Pending |
+| THM-26 | Phase 4 | Pending |
+| THM-27 | Phase 4 | Pending |
+| THM-28 | Phase 4 | Pending |
+| THM-29 | Phase 4 | Pending |
+| WOO-01 | Phase 5 | Pending |
+| WOO-02 | Phase 5 | Pending |
+| WOO-03 | Phase 5 | Pending |
+| WOO-04 | Phase 5 | Pending |
+| WOO-05 | Phase 5 | Pending |
+| WOO-06 | Phase 5 | Pending |
+| WOO-07 | Phase 5 | Pending |
+| WOO-08 | Phase 5 | Pending |
+| WOO-09 | Phase 5 | Pending |
+| WOO-10 | Phase 5 | Pending |
+| WOO-11 | Phase 5 | Pending |
+| WOO-12 | Phase 5 | Pending |
+| WOO-13 | Phase 5 | Pending |
+| WOO-14 | Phase 5 | Pending |
+| WOO-15 | Phase 5 | Pending |
+| WOO-16 | Phase 5 | Pending |
+| WOO-17 | Phase 5 | Pending |
+| WOO-18 | Phase 5 | Pending |
+| WOO-19 | Phase 5 | Pending |
+| WOO-20 | Phase 5 | Pending |
+| WOO-21 | Phase 5 | Pending |
+| WOO-22 | Phase 5 | Pending |
+| WOO-23 | Phase 5 | Pending |
+| WOO-24 | Phase 5 | Pending |
+| WOO-25 | Phase 5 | Pending |
+| WOO-26 | Phase 5 | Pending |
+| WOO-27 | Phase 5 | Pending |
+| WOO-28 | Phase 5 | Pending |
+| WOO-29 | Phase 5 | Pending |
+| WOO-30 | Phase 5 | Pending |
+| INF-01 | Phase 5 | Pending |
+| INF-02 | Phase 5 | Pending |
+| INF-03 | Phase 5 | Pending |
+| INF-04 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 150 total
@@ -227,4 +372,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-02-06*
-*Last updated: 2026-02-06 after initial definition*
+*Last updated: 2026-02-06 after roadmap creation*
