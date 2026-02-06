@@ -9,19 +9,19 @@ See: .planning/PROJECT.md (updated 2026-02-06)
 
 ## Current Position
 
-Phase: 3 of 5 (Gutenberg Blocks) — NOT STARTED
-Plan: 0 of 3 in current phase
-Status: Ready to plan
-Last activity: 2026-02-06 — Completed Phase 2 (Plugin Development)
+Phase: 3 of 5 (Gutenberg Blocks) — IN PROGRESS
+Plan: 1 of 3 in current phase
+Status: In progress
+Last activity: 2026-02-06 — Completed 03-01-PLAN.md
 
-Progress: [████████░░] 40% (6/15 plans complete)
+Progress: [█████████░] 47% (7/15 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6
-- Average duration: 12 minutes
-- Total execution time: 1.15 hours
+- Total plans completed: 7
+- Average duration: 10 minutes
+- Total execution time: 1.23 hours
 
 **By Phase:**
 
@@ -29,13 +29,13 @@ Progress: [████████░░] 40% (6/15 plans complete)
 |-------|-------|-------|----------|
 | 01 Security Review | 3/3 | 15m | 5m |
 | 02 Plugin Dev | 3/3 | 53m | 18m |
-| 03 Gutenberg | 0/3 | - | - |
+| 03 Gutenberg | 1/3 | 5m | 5m |
 | 04 Theme Dev | 0/3 | - | - |
 | 05 WooCommerce | 0/3 | - | - |
 
 **Recent Trend:**
-- Last 5 plans: 01-03 (<1m), 02-01 (24m), 02-02 (28m), 02-03 (~1m)
-- Trend: Slash command plans complete in ~1 minute; SKILL.md + reference docs take 24-28 minutes
+- Last 5 plans: 02-01 (24m), 02-02 (28m), 02-03 (~1m), 03-01 (5m)
+- Trend: Slash command plans complete in ~1 minute; SKILL.md plans complete in 5-24 minutes (depending on complexity)
 
 *Updated after each plan completion*
 
@@ -67,6 +67,10 @@ Recent decisions affecting current work:
 - Security cross-references in APIs (02-02) — permission_callback, nonces, capabilities point to wp-security-review skill
 - dbDelta quirks documented (02-02) — two spaces after PRIMARY KEY critical for WordPress custom table creation
 - Slash command delegation pattern (02-03) — /wp-plugin-review and /wp-plugin mirror security command structure exactly
+- First dual-language skill (03-01) — wp-block-development covers both PHP and JavaScript/React with separate BAD/GOOD patterns
+- Source vs build review (03-01) — review src/ files for code patterns, flag missing/stale build/, don't review build/ for quality
+- Grep patterns differ by language (03-01) — JS patterns need different regex than PHP, documented with --include flags
+- Interactivity API scoping (03-01) — WP 6.5+ frontend-only, editor still React, version markers throughout
 
 ### Pending Todos
 
@@ -79,6 +83,6 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-06
-Stopped at: Completed Phase 2 (Plugin Development) — all 3 plans executed
+Stopped at: Completed 03-01-PLAN.md (Core Block Development Skill)
 Resume file: None
-Next action: `/gsd:discuss-phase 3` to begin Gutenberg Blocks phase
+Next action: Continue Phase 3 with 03-02-PLAN.md (Reference Docs) or 03-03-PLAN.md (Slash Commands)
