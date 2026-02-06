@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A Claude Code plugin that provides professional WordPress engineering skills for code review and development guidance. Currently has 1 of 5 planned skills implemented (wp-performance-review). This project builds out the remaining 4 skills — security review, Gutenberg blocks, theme development, and plugin development — each matching the depth and quality of the existing performance skill.
+A Claude Code plugin that provides professional WordPress engineering skills for code review and development guidance. Currently has 1 of 6 planned skills implemented (wp-performance-review). This project builds out the remaining 5 skills — security review, Gutenberg blocks, theme development, plugin development, and WooCommerce development — each matching the depth and quality of the existing performance skill.
 
 ## Core Value
 
@@ -24,6 +24,7 @@ Every WordPress developer using Claude Code gets comprehensive, expert-level cod
 - [ ] wp-gutenberg-blocks skill with full SKILL.md, reference docs, and 2 slash commands (/wp-block-review, /wp-block)
 - [ ] wp-theme-development skill with full SKILL.md, reference docs, and 2 slash commands (/wp-theme-review, /wp-theme)
 - [ ] wp-plugin-development skill with full SKILL.md, reference docs, and 2 slash commands (/wp-plugin-review, /wp-plugin)
+- [ ] wp-woocommerce-dev skill with full SKILL.md, reference docs, and 2 slash commands (/wp-woo-review, /wp-woo)
 - [ ] Update README.md to reflect all implemented skills (status ✅, trigger phrases, command docs)
 - [ ] Update marketplace.json if needed for new skills
 - [ ] Update plugin.json version bump
@@ -32,7 +33,6 @@ Every WordPress developer using Claude Code gets comprehensive, expert-level cod
 ### Out of Scope
 
 - Server/infrastructure hardening (wp-security-review stays code-level only) — Claude reviews code, not server configs
-- WooCommerce-specific skill — too niche for v1, could be added later
 - Multisite-specific skill — could be a future addition
 - Automated testing/CI integration — this is a documentation-based skill plugin, no runtime code
 - WordPress 5.x backward compatibility — targeting WP 6.x+ modern APIs and patterns
@@ -63,8 +63,9 @@ Every WordPress developer using Claude Code gets comprehensive, expert-level cod
 | Code-level security only (no server hardening) | Claude reviews code, not infrastructure; keeps skill focused | — Pending |
 | Full-stack Gutenberg coverage (PHP + React/JSX) | WP 6.x+ block development requires both server and client patterns | — Pending |
 | Same slash command pattern per skill (full + quick) | Consistent UX, proven pattern from performance skill | — Pending |
-| All 4 skills at same depth | Consistent quality across the plugin, no half-built skills | — Pending |
+| All 5 skills at same depth | Consistent quality across the plugin, no half-built skills | — Pending |
+| Include WooCommerce skill | Full coverage: extensions, theming, performance, security for WooCommerce | — Pending |
 | WP 6.x+ target only | Modern APIs (block.json, theme.json, Interactivity API) without legacy compat burden | — Pending |
 
 ---
-*Last updated: 2026-02-06 after initialization*
+*Last updated: 2026-02-06 after adding WooCommerce skill to scope*
