@@ -67,9 +67,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 03-01: SKILL.md with block patterns (block.json validation, dynamic vs static, useBlockProps, InnerBlocks, deprecation)
-- [ ] 03-02: Reference docs (block-patterns.md, block-json-guide.md, react-patterns.md, attributes-guide.md, dynamic-blocks-guide.md, interactivity-api-guide.md)
-- [ ] 03-03: Slash commands (/wp-block-review full review, /wp-block quick scan)
+- [ ] 03-01-PLAN.md — SKILL.md with block patterns (block.json validation, dynamic vs static, useBlockProps, InnerBlocks, deprecation, Interactivity API)
+- [ ] 03-02-PLAN.md — Reference docs (block-json-guide.md, editor-patterns.md, dynamic-blocks-guide.md, interactivity-api-guide.md)
+- [ ] 03-03-PLAN.md — Slash commands (/wp-block-review full review, /wp-block quick scan)
 
 ### Phase 4: Theme Development
 **Goal**: Claude can review block themes and theme.json v3 structure (FSE patterns for WP 6.6+)
@@ -115,6 +115,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Security Review | 3/3 | Complete | 2026-02-06 |
 | 2. Plugin Development | 3/3 | Complete | 2026-02-06 |
-| 3. Gutenberg Blocks | 0/3 | Not started | - |
+| 3. Gutenberg Blocks | 0/3 | Planned | - |
 | 4. Theme Development | 0/3 | Not started | - |
 | 5. WooCommerce Development | 0/3 | Not started | - |
