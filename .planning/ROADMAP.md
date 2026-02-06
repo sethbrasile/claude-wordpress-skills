@@ -12,7 +12,7 @@ This roadmap delivers five complete WordPress code review skills plus infrastruc
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Security Review** - Code-level security patterns and vulnerability detection
+- [x] **Phase 1: Security Review** - Code-level security patterns and vulnerability detection
 - [ ] **Phase 2: Plugin Development** - Plugin architecture and WordPress.org standards
 - [ ] **Phase 3: Gutenberg Blocks** - Block API, block.json, and Interactivity API patterns
 - [ ] **Phase 4: Theme Development** - Block themes, theme.json, and FSE patterns
@@ -33,9 +33,9 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 3 plans
 
 Plans:
-- [ ] 01-01: SKILL.md with vulnerability detection patterns (XSS, SQL injection, CSRF, privilege escalation)
-- [ ] 01-02: Reference docs (vulnerability-patterns.md, escaping-guide.md, sanitization-guide.md, auth-patterns.md, nonce-csrf-guide.md)
-- [ ] 01-03: Slash commands (/wp-sec-review full review, /wp-sec quick scan)
+- [x] 01-01: SKILL.md with vulnerability detection patterns (XSS, SQL injection, CSRF, privilege escalation)
+- [x] 01-02: Reference docs (vulnerability-patterns.md, escaping-guide.md, sanitization-guide.md, auth-patterns.md, nonce-csrf-guide.md)
+- [x] 01-03: Slash commands (/wp-sec-review full review, /wp-sec quick scan)
 
 ### Phase 2: Plugin Development
 **Goal**: Claude can review plugin architecture and WordPress.org submission standards
@@ -113,7 +113,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Security Review | 0/3 | Not started | - |
+| 1. Security Review | 3/3 | Complete | 2026-02-06 |
 | 2. Plugin Development | 0/3 | Not started | - |
 | 3. Gutenberg Blocks | 0/3 | Not started | - |
 | 4. Theme Development | 0/3 | Not started | - |
