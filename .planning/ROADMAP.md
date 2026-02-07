@@ -84,9 +84,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: SKILL.md with theme patterns (theme.json validation, template hierarchy, FSE templates, template parts, global styles)
-- [ ] 04-02: Reference docs (theme-json-guide.md, template-patterns.md, fse-guide.md, classic-to-block-guide.md)
-- [ ] 04-03: Slash commands (/wp-theme-review full review, /wp-theme quick scan)
+- [ ] 04-01-PLAN.md — SKILL.md with theme patterns (theme.json v3 validation, template hierarchy, FSE templates, template parts, global styles, style variations, block patterns, child themes)
+- [ ] 04-02-PLAN.md — Reference docs (theme-json-guide.md, template-patterns.md, fse-guide.md, classic-to-block-guide.md)
+- [ ] 04-03-PLAN.md — Slash commands (/wp-theme-review full review, /wp-theme quick scan)
 
 ### Phase 5: WooCommerce Development
 **Goal**: Claude can review WooCommerce extensions and theme integration + plugin infrastructure is updated
