@@ -138,43 +138,43 @@ Requirements for building out all 5 missing skills. Each maps to roadmap phases.
 
 ### WooCommerce Development (wp-woocommerce-dev)
 
-- [ ] **WOO-01**: SKILL.md with YAML frontmatter (name, description with trigger phrases)
-- [ ] **WOO-02**: Custom product types — register_product_type(), product data stores
-- [ ] **WOO-03**: Payment gateway integration — WC_Payment_Gateway class, process_payment()
-- [ ] **WOO-04**: Shipping method development — WC_Shipping_Method class, calculate_shipping()
-- [ ] **WOO-05**: WooCommerce hooks — woocommerce_before_cart, woocommerce_checkout_process, etc.
-- [ ] **WOO-06**: Product data — custom fields via woocommerce_product_options_*, save hooks
-- [ ] **WOO-07**: Order handling — WC_Order methods, status transitions, CRUD operations
-- [ ] **WOO-08**: Cart operations — WC()->cart methods, cart item data, fees
-- [ ] **WOO-09**: REST API extensions — WooCommerce REST API endpoints, custom endpoints
-- [ ] **WOO-10**: Template overrides — woocommerce/ directory in themes, proper override patterns
-- [ ] **WOO-11**: Shop page customization — archive-product.php, content-product.php patterns
-- [ ] **WOO-12**: Cart/checkout theming — template parts, form field customization
-- [ ] **WOO-13**: Product display patterns — single-product.php, gallery, variations
-- [ ] **WOO-14**: WooCommerce blocks — product grid, cart block, checkout block integration
-- [ ] **WOO-15**: Cart fragments performance — wc-cart-fragments.js, disable/optimize patterns
-- [ ] **WOO-16**: High-order-volume patterns — HPOS (High-Performance Order Storage) compatibility
-- [ ] **WOO-17**: WooCommerce query optimization — WC_Product_Query, wc_get_products() patterns
-- [ ] **WOO-18**: Session handling — WC_Session_Handler, avoid custom sessions
-- [ ] **WOO-19**: Checkout security — payment data handling, PCI considerations in custom code
-- [ ] **WOO-20**: AJAX add-to-cart security — nonce verification, capability checks
-- [ ] **WOO-21**: Coupon/discount validation — custom coupon types, validation hooks
-- [ ] **WOO-22**: Search patterns for quick detection (grep commands)
-- [ ] **WOO-23**: Code examples following WordPress PHP Coding Standards
-- [ ] **WOO-24**: Severity levels and output format matching existing skill
-- [ ] **WOO-25**: Common mistakes section (WooCommerce-specific false positives)
-- [ ] **WOO-26**: Reference doc — WooCommerce extension development guide
-- [ ] **WOO-27**: Reference doc — WooCommerce template and theming guide
-- [ ] **WOO-28**: Reference doc — WooCommerce performance patterns
-- [ ] **WOO-29**: Slash command /wp-woo-review (full review)
-- [ ] **WOO-30**: Slash command /wp-woo (quick scan)
+- [x] **WOO-01**: SKILL.md with YAML frontmatter (name, description with trigger phrases)
+- [x] **WOO-02**: Custom product types — register_product_type(), product data stores
+- [x] **WOO-03**: Payment gateway integration — WC_Payment_Gateway class, process_payment()
+- [x] **WOO-04**: Shipping method development — WC_Shipping_Method class, calculate_shipping()
+- [x] **WOO-05**: WooCommerce hooks — woocommerce_before_cart, woocommerce_checkout_process, etc.
+- [x] **WOO-06**: Product data — custom fields via woocommerce_product_options_*, save hooks
+- [x] **WOO-07**: Order handling — WC_Order methods, status transitions, CRUD operations
+- [x] **WOO-08**: Cart operations — WC()->cart methods, cart item data, fees
+- [x] **WOO-09**: REST API extensions — WooCommerce REST API endpoints, custom endpoints
+- [x] **WOO-10**: Template overrides — woocommerce/ directory in themes, proper override patterns
+- [x] **WOO-11**: Shop page customization — archive-product.php, content-product.php patterns
+- [x] **WOO-12**: Cart/checkout theming — template parts, form field customization
+- [x] **WOO-13**: Product display patterns — single-product.php, gallery, variations
+- [x] **WOO-14**: WooCommerce blocks — product grid, cart block, checkout block integration
+- [x] **WOO-15**: Cart fragments performance — wc-cart-fragments.js, disable/optimize patterns
+- [x] **WOO-16**: High-order-volume patterns — HPOS (High-Performance Order Storage) compatibility
+- [x] **WOO-17**: WooCommerce query optimization — WC_Product_Query, wc_get_products() patterns
+- [x] **WOO-18**: Session handling — WC_Session_Handler, avoid custom sessions
+- [x] **WOO-19**: Checkout security — payment data handling, PCI considerations in custom code
+- [x] **WOO-20**: AJAX add-to-cart security — nonce verification, capability checks
+- [x] **WOO-21**: Coupon/discount validation — custom coupon types, validation hooks
+- [x] **WOO-22**: Search patterns for quick detection (grep commands)
+- [x] **WOO-23**: Code examples following WordPress PHP Coding Standards
+- [x] **WOO-24**: Severity levels and output format matching existing skill
+- [x] **WOO-25**: Common mistakes section (WooCommerce-specific false positives)
+- [x] **WOO-26**: Reference doc — WooCommerce extension development guide
+- [x] **WOO-27**: Reference doc — WooCommerce template and theming guide
+- [x] **WOO-28**: Reference doc — WooCommerce performance patterns
+- [x] **WOO-29**: Slash command /wp-woo-review (full review)
+- [x] **WOO-30**: Slash command /wp-woo (quick scan)
 
 ### Infrastructure Updates
 
-- [ ] **INF-01**: Update README.md — all 5 new skills status ✅, trigger phrases, command docs
-- [ ] **INF-02**: Update marketplace.json — register all new skills
-- [ ] **INF-03**: Update plugin.json — version bump
-- [ ] **INF-04**: Update CHANGELOG.md — document all new skills
+- [x] **INF-01**: Update README.md — all 5 new skills status ✅, trigger phrases, command docs
+- [x] **INF-02**: Update marketplace.json — register all new skills
+- [x] **INF-03**: Update plugin.json — version bump
+- [x] **INF-04**: Update CHANGELOG.md — document all new skills
 
 ## v2 Requirements
 
@@ -330,40 +330,40 @@ Which phases cover which requirements. Updated during roadmap creation.
 | THM-27 | Phase 4 | Complete |
 | THM-28 | Phase 4 | Complete |
 | THM-29 | Phase 4 | Complete |
-| WOO-01 | Phase 5 | Pending |
-| WOO-02 | Phase 5 | Pending |
-| WOO-03 | Phase 5 | Pending |
-| WOO-04 | Phase 5 | Pending |
-| WOO-05 | Phase 5 | Pending |
-| WOO-06 | Phase 5 | Pending |
-| WOO-07 | Phase 5 | Pending |
-| WOO-08 | Phase 5 | Pending |
-| WOO-09 | Phase 5 | Pending |
-| WOO-10 | Phase 5 | Pending |
-| WOO-11 | Phase 5 | Pending |
-| WOO-12 | Phase 5 | Pending |
-| WOO-13 | Phase 5 | Pending |
-| WOO-14 | Phase 5 | Pending |
-| WOO-15 | Phase 5 | Pending |
-| WOO-16 | Phase 5 | Pending |
-| WOO-17 | Phase 5 | Pending |
-| WOO-18 | Phase 5 | Pending |
-| WOO-19 | Phase 5 | Pending |
-| WOO-20 | Phase 5 | Pending |
-| WOO-21 | Phase 5 | Pending |
-| WOO-22 | Phase 5 | Pending |
-| WOO-23 | Phase 5 | Pending |
-| WOO-24 | Phase 5 | Pending |
-| WOO-25 | Phase 5 | Pending |
-| WOO-26 | Phase 5 | Pending |
-| WOO-27 | Phase 5 | Pending |
-| WOO-28 | Phase 5 | Pending |
-| WOO-29 | Phase 5 | Pending |
-| WOO-30 | Phase 5 | Pending |
-| INF-01 | Phase 5 | Pending |
-| INF-02 | Phase 5 | Pending |
-| INF-03 | Phase 5 | Pending |
-| INF-04 | Phase 5 | Pending |
+| WOO-01 | Phase 5 | Complete |
+| WOO-02 | Phase 5 | Complete |
+| WOO-03 | Phase 5 | Complete |
+| WOO-04 | Phase 5 | Complete |
+| WOO-05 | Phase 5 | Complete |
+| WOO-06 | Phase 5 | Complete |
+| WOO-07 | Phase 5 | Complete |
+| WOO-08 | Phase 5 | Complete |
+| WOO-09 | Phase 5 | Complete |
+| WOO-10 | Phase 5 | Complete |
+| WOO-11 | Phase 5 | Complete |
+| WOO-12 | Phase 5 | Complete |
+| WOO-13 | Phase 5 | Complete |
+| WOO-14 | Phase 5 | Complete |
+| WOO-15 | Phase 5 | Complete |
+| WOO-16 | Phase 5 | Complete |
+| WOO-17 | Phase 5 | Complete |
+| WOO-18 | Phase 5 | Complete |
+| WOO-19 | Phase 5 | Complete |
+| WOO-20 | Phase 5 | Complete |
+| WOO-21 | Phase 5 | Complete |
+| WOO-22 | Phase 5 | Complete |
+| WOO-23 | Phase 5 | Complete |
+| WOO-24 | Phase 5 | Complete |
+| WOO-25 | Phase 5 | Complete |
+| WOO-26 | Phase 5 | Complete |
+| WOO-27 | Phase 5 | Complete |
+| WOO-28 | Phase 5 | Complete |
+| WOO-29 | Phase 5 | Complete |
+| WOO-30 | Phase 5 | Complete |
+| INF-01 | Phase 5 | Complete |
+| INF-02 | Phase 5 | Complete |
+| INF-03 | Phase 5 | Complete |
+| INF-04 | Phase 5 | Complete |
 
 **Coverage:**
 - v1 requirements: 150 total
@@ -372,4 +372,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-02-06*
-*Last updated: 2026-02-06 after Phase 4 completion*
+*Last updated: 2026-02-06 after Phase 5 completion — all v1 requirements complete*
