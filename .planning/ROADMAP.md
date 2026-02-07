@@ -28,7 +28,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. User can invoke /wp-sec-review on a codebase and receive comprehensive security findings
   2. User can invoke /wp-sec for quick triage of high-risk patterns
   3. Claude automatically detects security review context from trigger phrases like "security issues" or "XSS vulnerability"
-  4. All code examples follow WordPress PHP Coding Standards with ❌ BAD / ✅ GOOD pattern
+  4. All code examples follow WordPress PHP Coding Standards with BAD / GOOD pattern
   5. Security findings include severity levels (CRITICAL/WARNING/INFO) appropriate to impact
 **Plans**: 3 plans
 
@@ -67,9 +67,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [x] 03-01-PLAN.md — SKILL.md with block patterns (block.json validation, dynamic vs static, useBlockProps, InnerBlocks, deprecation, Interactivity API)
-- [x] 03-02-PLAN.md — Reference docs (block-json-guide.md, editor-patterns.md, dynamic-blocks-guide.md, interactivity-api-guide.md)
-- [x] 03-03-PLAN.md — Slash commands (/wp-block-review full review, /wp-block quick scan)
+- [x] 03-01-PLAN.md -- SKILL.md with block patterns (block.json validation, dynamic vs static, useBlockProps, InnerBlocks, deprecation, Interactivity API)
+- [x] 03-02-PLAN.md -- Reference docs (block-json-guide.md, editor-patterns.md, dynamic-blocks-guide.md, interactivity-api-guide.md)
+- [x] 03-03-PLAN.md -- Slash commands (/wp-block-review full review, /wp-block quick scan)
 
 ### Phase 4: Theme Development
 **Goal**: Claude can review block themes and theme.json v3 structure (FSE patterns for WP 6.6+)
@@ -84,9 +84,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [x] 04-01-PLAN.md — SKILL.md with theme patterns (theme.json v3 validation, template hierarchy, FSE templates, template parts, global styles, style variations, block patterns, child themes)
-- [x] 04-02-PLAN.md — Reference docs (theme-json-guide.md, template-patterns.md, fse-guide.md, classic-to-block-guide.md)
-- [x] 04-03-PLAN.md — Slash commands (/wp-theme-review full review, /wp-theme quick scan)
+- [x] 04-01-PLAN.md -- SKILL.md with theme patterns (theme.json v3 validation, template hierarchy, FSE templates, template parts, global styles, style variations, block patterns, child themes)
+- [x] 04-02-PLAN.md -- Reference docs (theme-json-guide.md, template-patterns.md, fse-guide.md, classic-to-block-guide.md)
+- [x] 04-03-PLAN.md -- Slash commands (/wp-theme-review full review, /wp-theme quick scan)
 
 ### Phase 5: WooCommerce Development
 **Goal**: Claude can review WooCommerce extensions and theme integration + plugin infrastructure is updated
@@ -102,14 +102,14 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 05-01: SKILL.md with WooCommerce patterns (custom product types, payment gateways, shipping methods, hooks, HPOS, cart fragments)
-- [ ] 05-02: Reference docs (wc-extension-guide.md, wc-template-guide.md, wc-performance-guide.md)
-- [ ] 05-03: Slash commands (/wp-woo-review, /wp-woo) + infrastructure updates (README.md, marketplace.json, plugin.json version, CHANGELOG.md)
+- [ ] 05-01-PLAN.md -- SKILL.md with WooCommerce patterns (HPOS compatibility, CRUD data access, payment gateways, shipping methods, custom product types, hooks catalog, cart fragments, Action Scheduler, template overrides)
+- [ ] 05-02-PLAN.md -- Reference docs (wc-extension-guide.md, wc-template-guide.md, wc-performance-guide.md)
+- [ ] 05-03-PLAN.md -- Slash commands (/wp-woo-review, /wp-woo) + infrastructure updates (README.md, marketplace.json, plugin.json version, CHANGELOG.md)
 
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
@@ -117,4 +117,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. Plugin Development | 3/3 | Complete | 2026-02-06 |
 | 3. Gutenberg Blocks | 3/3 | Complete | 2026-02-06 |
 | 4. Theme Development | 3/3 | Complete | 2026-02-06 |
-| 5. WooCommerce Development | 0/3 | Not started | - |
+| 5. WooCommerce Development | 0/3 | Planned | - |
