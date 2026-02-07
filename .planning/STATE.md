@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-06)
 ## Current Position
 
 Phase: 4 of 5 (Theme Development) — IN PROGRESS
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: In progress
-Last activity: 2026-02-06 — Completed 04-01-PLAN.md
+Last activity: 2026-02-06 — Completed 04-02-PLAN.md
 
-Progress: [██████████] 67% (10/15 plans complete)
+Progress: [███████████] 73% (11/15 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
+- Total plans completed: 11
 - Average duration: 9 minutes
-- Total execution time: 1.50 hours
+- Total execution time: 1.65 hours
 
 **By Phase:**
 
@@ -30,12 +30,12 @@ Progress: [██████████] 67% (10/15 plans complete)
 | 01 Security Review | 3/3 | 15m | 5m |
 | 02 Plugin Dev | 3/3 | 53m | 18m |
 | 03 Gutenberg | 3/3 | 16m | 5m |
-| 04 Theme Dev | 1/3 | 5m | 5m |
+| 04 Theme Dev | 2/3 | 14m | 7m |
 | 05 WooCommerce | 0/3 | - | - |
 
 **Recent Trend:**
-- Last 5 plans: 03-01 (5m), 03-02 (10m), 03-03 (1m), 04-01 (5m)
-- Trend: Slash command plans complete in ~1 minute; SKILL.md plans complete in 5 minutes; reference doc plans complete in 10-28 minutes
+- Last 5 plans: 03-02 (10m), 03-03 (1m), 04-01 (5m), 04-02 (9m)
+- Trend: Slash command plans complete in ~1 minute; SKILL.md plans complete in 5 minutes; reference doc plans complete in 9-28 minutes
 
 *Updated after each plan completion*
 
@@ -77,9 +77,13 @@ Recent decisions affecting current work:
 - viewScriptModule required (03-02) — Interactivity API needs ES modules, viewScript doesn't support imports
 - Block themes primary focus (04-01) — WP 6.6+ with theme.json v3, classic themes covered for migration guidance only
 - Theme type auto-detection (04-01) — file structure determines block/classic/hybrid/child/WordPress.org context
-- theme.json v3 breaking changes (04-01) — defaultFontSizes and defaultSpacingSizes default to true in v3, must explicitly set false
-- useRootPaddingAwareAlignments essential (04-01) — required when root padding present, object notation only (not CSS shorthand)
+- theme.json v3 breaking changes (04-01, 04-02) — defaultFontSizes and defaultSpacingSizes default to true in v3, must explicitly set false
+- useRootPaddingAwareAlignments essential (04-01, 04-02) — required when root padding present, object notation only (not CSS shorthand)
 - Hardcoded styles severity (04-01) — inline styles in block themes = WARNING (defeats FSE purpose, prevents user customization)
+- Template hierarchy identical (04-02) — block (.html) and classic (.php) themes use same fallback chain, WordPress selects based on file extension
+- FSE shifts control (04-02) — from theme developers (code) to site users (visual Site Editor), theme.json defines defaults
+- Three migration strategies (04-02) — full conversion (big bang), hybrid theme (gradual), Create Block Theme plugin (automated export)
+- Local font hosting required (04-02) — WordPress.org submission mandates GPL fonts, privacy compliance (GDPR), .woff2 format recommended
 
 ### Pending Todos
 
@@ -92,6 +96,6 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-06
-Stopped at: Completed 04-01-PLAN.md
+Stopped at: Completed 04-02-PLAN.md
 Resume file: None
-Next action: Execute 04-02 (theme.json reference doc)
+Next action: Execute 04-03 (slash commands /wp-theme-review and /wp-theme)
