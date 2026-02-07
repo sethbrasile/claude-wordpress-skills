@@ -9,19 +9,19 @@ See: .planning/PROJECT.md (updated 2026-02-06)
 
 ## Current Position
 
-Phase: 3 of 5 (Gutenberg Blocks) — COMPLETE
-Plan: 3 of 3 in current phase
-Status: Complete
-Last activity: 2026-02-06 — Completed Phase 3 (Gutenberg Blocks)
+Phase: 4 of 5 (Theme Development) — IN PROGRESS
+Plan: 1 of 3 in current phase
+Status: In progress
+Last activity: 2026-02-06 — Completed 04-01-PLAN.md
 
-Progress: [█████████░] 60% (9/15 plans complete)
+Progress: [██████████] 67% (10/15 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 9
-- Average duration: 10 minutes
-- Total execution time: 1.42 hours
+- Total plans completed: 10
+- Average duration: 9 minutes
+- Total execution time: 1.50 hours
 
 **By Phase:**
 
@@ -30,11 +30,11 @@ Progress: [█████████░] 60% (9/15 plans complete)
 | 01 Security Review | 3/3 | 15m | 5m |
 | 02 Plugin Dev | 3/3 | 53m | 18m |
 | 03 Gutenberg | 3/3 | 16m | 5m |
-| 04 Theme Dev | 0/3 | - | - |
+| 04 Theme Dev | 1/3 | 5m | 5m |
 | 05 WooCommerce | 0/3 | - | - |
 
 **Recent Trend:**
-- Last 5 plans: 02-03 (~1m), 03-01 (5m), 03-02 (10m), 03-03 (1m)
+- Last 5 plans: 03-01 (5m), 03-02 (10m), 03-03 (1m), 04-01 (5m)
 - Trend: Slash command plans complete in ~1 minute; SKILL.md plans complete in 5 minutes; reference doc plans complete in 10-28 minutes
 
 *Updated after each plan completion*
@@ -75,6 +75,11 @@ Recent decisions affecting current work:
 - InnerBlocks dynamic block gotcha (03-02) — MUST return InnerBlocks.Content in save even if dynamic, $content contains saved inner blocks
 - DO NOT escape $content (03-02) — wp_kses_post() breaks core/embed blocks, inner blocks already sanitized
 - viewScriptModule required (03-02) — Interactivity API needs ES modules, viewScript doesn't support imports
+- Block themes primary focus (04-01) — WP 6.6+ with theme.json v3, classic themes covered for migration guidance only
+- Theme type auto-detection (04-01) — file structure determines block/classic/hybrid/child/WordPress.org context
+- theme.json v3 breaking changes (04-01) — defaultFontSizes and defaultSpacingSizes default to true in v3, must explicitly set false
+- useRootPaddingAwareAlignments essential (04-01) — required when root padding present, object notation only (not CSS shorthand)
+- Hardcoded styles severity (04-01) — inline styles in block themes = WARNING (defeats FSE purpose, prevents user customization)
 
 ### Pending Todos
 
@@ -87,6 +92,6 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-06
-Stopped at: Completed Phase 3 (Gutenberg Blocks) — all 3 plans shipped
+Stopped at: Completed 04-01-PLAN.md
 Resume file: None
-Next action: Phase 4 (Theme Development) — /gsd:discuss-phase 4
+Next action: Execute 04-02 (theme.json reference doc)
