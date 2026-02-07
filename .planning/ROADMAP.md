@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Security Review** - Code-level security patterns and vulnerability detection
 - [x] **Phase 2: Plugin Development** - Plugin architecture and WordPress.org standards
 - [x] **Phase 3: Gutenberg Blocks** - Block API, block.json, and Interactivity API patterns
-- [ ] **Phase 4: Theme Development** - Block themes, theme.json, and FSE patterns
+- [x] **Phase 4: Theme Development** - Block themes, theme.json, and FSE patterns
 - [ ] **Phase 5: WooCommerce Development** - WooCommerce extension patterns and infrastructure updates
 
 ## Phase Details
@@ -84,9 +84,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01-PLAN.md — SKILL.md with theme patterns (theme.json v3 validation, template hierarchy, FSE templates, template parts, global styles, style variations, block patterns, child themes)
-- [ ] 04-02-PLAN.md — Reference docs (theme-json-guide.md, template-patterns.md, fse-guide.md, classic-to-block-guide.md)
-- [ ] 04-03-PLAN.md — Slash commands (/wp-theme-review full review, /wp-theme quick scan)
+- [x] 04-01-PLAN.md — SKILL.md with theme patterns (theme.json v3 validation, template hierarchy, FSE templates, template parts, global styles, style variations, block patterns, child themes)
+- [x] 04-02-PLAN.md — Reference docs (theme-json-guide.md, template-patterns.md, fse-guide.md, classic-to-block-guide.md)
+- [x] 04-03-PLAN.md — Slash commands (/wp-theme-review full review, /wp-theme quick scan)
 
 ### Phase 5: WooCommerce Development
 **Goal**: Claude can review WooCommerce extensions and theme integration + plugin infrastructure is updated
@@ -116,5 +116,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Security Review | 3/3 | Complete | 2026-02-06 |
 | 2. Plugin Development | 3/3 | Complete | 2026-02-06 |
 | 3. Gutenberg Blocks | 3/3 | Complete | 2026-02-06 |
-| 4. Theme Development | 0/3 | Not started | - |
+| 4. Theme Development | 3/3 | Complete | 2026-02-06 |
 | 5. WooCommerce Development | 0/3 | Not started | - |

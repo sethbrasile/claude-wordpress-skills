@@ -74,35 +74,35 @@ Requirements for building out all 5 missing skills. Each maps to roadmap phases.
 
 ### Theme Development (wp-theme-development)
 
-- [ ] **THM-01**: SKILL.md with YAML frontmatter (name, description with trigger phrases)
-- [ ] **THM-02**: theme.json structure validation — version, settings, styles, patterns
-- [ ] **THM-03**: Template hierarchy — proper file naming for block and classic themes
-- [ ] **THM-04**: Template parts — header.html, footer.html in block themes
-- [ ] **THM-05**: FSE templates — templates directory structure, block markup
-- [ ] **THM-06**: Conditional tags — is_front_page(), is_singular(), is_page() usage
-- [ ] **THM-07**: get_template_part() — classic theme organization
-- [ ] **THM-08**: Theme supports — add_theme_support() calls validation
-- [ ] **THM-09**: Navigation menus — register_nav_menus() for classic, Navigation block for FSE
-- [ ] **THM-10**: Global styles — color palettes, typography, spacing scales in theme.json
-- [ ] **THM-11**: Block patterns — patterns directory, registration
-- [ ] **THM-12**: Block theme vs classic theme detection — auto-detect and guide accordingly
-- [ ] **THM-13**: theme.json version differences — v2 vs v3 features
-- [ ] **THM-14**: Hardcoded styles anti-pattern — inline styles, style tags detection
-- [ ] **THM-15**: Block stylesheets pattern — separate CSS for conditional loading
-- [ ] **THM-16**: Child theme safety — parent theme function override checks
-- [ ] **THM-17**: Custom templates registration — block theme templates/ naming
-- [ ] **THM-18**: Template part areas — header, footer, sidebar areas
-- [ ] **THM-19**: Style variations — styles/ directory structure validation
-- [ ] **THM-20**: Root padding aware alignments — useRootPaddingAwareAlignments
-- [ ] **THM-21**: Search patterns for quick detection (grep commands)
-- [ ] **THM-22**: Code examples (PHP + HTML templates) following WordPress coding standards
-- [ ] **THM-23**: Severity levels and output format matching existing skill
-- [ ] **THM-24**: Common mistakes section
-- [ ] **THM-25**: Reference doc — theme.json guide
-- [ ] **THM-26**: Reference doc — template patterns (classic + FSE)
-- [ ] **THM-27**: Reference doc — classic-to-block migration guide
-- [ ] **THM-28**: Slash command /wp-theme-review (full review)
-- [ ] **THM-29**: Slash command /wp-theme (quick scan)
+- [x] **THM-01**: SKILL.md with YAML frontmatter (name, description with trigger phrases)
+- [x] **THM-02**: theme.json structure validation — version, settings, styles, patterns
+- [x] **THM-03**: Template hierarchy — proper file naming for block and classic themes
+- [x] **THM-04**: Template parts — header.html, footer.html in block themes
+- [x] **THM-05**: FSE templates — templates directory structure, block markup
+- [x] **THM-06**: Conditional tags — is_front_page(), is_singular(), is_page() usage
+- [x] **THM-07**: get_template_part() — classic theme organization
+- [x] **THM-08**: Theme supports — add_theme_support() calls validation
+- [x] **THM-09**: Navigation menus — register_nav_menus() for classic, Navigation block for FSE
+- [x] **THM-10**: Global styles — color palettes, typography, spacing scales in theme.json
+- [x] **THM-11**: Block patterns — patterns directory, registration
+- [x] **THM-12**: Block theme vs classic theme detection — auto-detect and guide accordingly
+- [x] **THM-13**: theme.json version differences — v2 vs v3 features
+- [x] **THM-14**: Hardcoded styles anti-pattern — inline styles, style tags detection
+- [x] **THM-15**: Block stylesheets pattern — separate CSS for conditional loading
+- [x] **THM-16**: Child theme safety — parent theme function override checks
+- [x] **THM-17**: Custom templates registration — block theme templates/ naming
+- [x] **THM-18**: Template part areas — header, footer, sidebar areas
+- [x] **THM-19**: Style variations — styles/ directory structure validation
+- [x] **THM-20**: Root padding aware alignments — useRootPaddingAwareAlignments
+- [x] **THM-21**: Search patterns for quick detection (grep commands)
+- [x] **THM-22**: Code examples (PHP + HTML templates) following WordPress coding standards
+- [x] **THM-23**: Severity levels and output format matching existing skill
+- [x] **THM-24**: Common mistakes section
+- [x] **THM-25**: Reference doc — theme.json guide
+- [x] **THM-26**: Reference doc — template patterns (classic + FSE)
+- [x] **THM-27**: Reference doc — classic-to-block migration guide
+- [x] **THM-28**: Slash command /wp-theme-review (full review)
+- [x] **THM-29**: Slash command /wp-theme (quick scan)
 
 ### Plugin Development (wp-plugin-development)
 
@@ -301,35 +301,35 @@ Which phases cover which requirements. Updated during roadmap creation.
 | BLK-28 | Phase 3 | Complete |
 | BLK-29 | Phase 3 | Complete |
 | BLK-30 | Phase 3 | Complete |
-| THM-01 | Phase 4 | Pending |
-| THM-02 | Phase 4 | Pending |
-| THM-03 | Phase 4 | Pending |
-| THM-04 | Phase 4 | Pending |
-| THM-05 | Phase 4 | Pending |
-| THM-06 | Phase 4 | Pending |
-| THM-07 | Phase 4 | Pending |
-| THM-08 | Phase 4 | Pending |
-| THM-09 | Phase 4 | Pending |
-| THM-10 | Phase 4 | Pending |
-| THM-11 | Phase 4 | Pending |
-| THM-12 | Phase 4 | Pending |
-| THM-13 | Phase 4 | Pending |
-| THM-14 | Phase 4 | Pending |
-| THM-15 | Phase 4 | Pending |
-| THM-16 | Phase 4 | Pending |
-| THM-17 | Phase 4 | Pending |
-| THM-18 | Phase 4 | Pending |
-| THM-19 | Phase 4 | Pending |
-| THM-20 | Phase 4 | Pending |
-| THM-21 | Phase 4 | Pending |
-| THM-22 | Phase 4 | Pending |
-| THM-23 | Phase 4 | Pending |
-| THM-24 | Phase 4 | Pending |
-| THM-25 | Phase 4 | Pending |
-| THM-26 | Phase 4 | Pending |
-| THM-27 | Phase 4 | Pending |
-| THM-28 | Phase 4 | Pending |
-| THM-29 | Phase 4 | Pending |
+| THM-01 | Phase 4 | Complete |
+| THM-02 | Phase 4 | Complete |
+| THM-03 | Phase 4 | Complete |
+| THM-04 | Phase 4 | Complete |
+| THM-05 | Phase 4 | Complete |
+| THM-06 | Phase 4 | Complete |
+| THM-07 | Phase 4 | Complete |
+| THM-08 | Phase 4 | Complete |
+| THM-09 | Phase 4 | Complete |
+| THM-10 | Phase 4 | Complete |
+| THM-11 | Phase 4 | Complete |
+| THM-12 | Phase 4 | Complete |
+| THM-13 | Phase 4 | Complete |
+| THM-14 | Phase 4 | Complete |
+| THM-15 | Phase 4 | Complete |
+| THM-16 | Phase 4 | Complete |
+| THM-17 | Phase 4 | Complete |
+| THM-18 | Phase 4 | Complete |
+| THM-19 | Phase 4 | Complete |
+| THM-20 | Phase 4 | Complete |
+| THM-21 | Phase 4 | Complete |
+| THM-22 | Phase 4 | Complete |
+| THM-23 | Phase 4 | Complete |
+| THM-24 | Phase 4 | Complete |
+| THM-25 | Phase 4 | Complete |
+| THM-26 | Phase 4 | Complete |
+| THM-27 | Phase 4 | Complete |
+| THM-28 | Phase 4 | Complete |
+| THM-29 | Phase 4 | Complete |
 | WOO-01 | Phase 5 | Pending |
 | WOO-02 | Phase 5 | Pending |
 | WOO-03 | Phase 5 | Pending |
@@ -372,4 +372,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-02-06*
-*Last updated: 2026-02-06 after roadmap creation*
+*Last updated: 2026-02-06 after Phase 4 completion*
